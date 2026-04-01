@@ -58,12 +58,13 @@ Aging: Processes waiting in lower queues for >10 units are promoted to prevent s
 
 - Clone the Repository:
 
-Bash
-git clone [your-repo-url]
-cd [your-repo-folder]
-Run the Simulator:
+# 1. Clone the repository to your computer
+git clone https://github.com/recluse-rith/OS-CPU-Scheduling-Team2.git
 
-Bash
+# 2. Move into the project folder
+cd OS-CPU-Scheduling-Team2
+
+# 3. Run 
 python3 cpu_scheduler.py
 6. Input Format (CSV)
 If using a CSV file, format it as follows (without headers):
